@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///定时器响应次数
 @property (nonatomic, assign) NSInteger actionTimes;
 ///离开时间
-@property (nonatomic, assign) NSTimeInterval leaveTime;
+@property (nonatomic, assign) NSInteger leaveTime;
 
 @end
 

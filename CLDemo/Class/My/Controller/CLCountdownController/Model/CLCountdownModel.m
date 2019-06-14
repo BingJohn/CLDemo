@@ -35,9 +35,9 @@
         return self.pauseTime;
     }else {
         if (self.pauseTime != 0 && self.startTime != 0) {
-            return self.countdownTime - self.actionTimes + self.pauseTime - self.startTime - (NSInteger)floor(self.leaveTime);
+            return self.countdownTime - self.actionTimes + self.pauseTime - self.startTime - self.leaveTime;
         }else {
-            return self.countdownTime - self.actionTimes - (NSInteger)floor(self.leaveTime);
+            return self.countdownTime - self.actionTimes - self.leaveTime;
         }
     }
 }
