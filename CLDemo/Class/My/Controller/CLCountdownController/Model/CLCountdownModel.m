@@ -14,6 +14,8 @@
 @property (nonatomic, assign) NSInteger pauseTime;
 ///开始时间
 @property (nonatomic, assign) NSInteger startTime;
+///剩余时间
+@property (nonatomic, assign) NSInteger remainingTime;
 
 @end
 
