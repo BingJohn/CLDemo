@@ -11,7 +11,6 @@
 #import "CLCountdownModel.h"
 #import "CLCountdownCell.h"
 #import "CLGCDTimerManager.h"
-#include <sys/sysctl.h>
 #import "NSDate+CLExtension.h"
 
 @interface CLCountdownController ()<UITableViewDelegate,UITableViewDataSource>
